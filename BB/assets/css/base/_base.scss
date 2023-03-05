@@ -1,0 +1,182 @@
+.modalicon1{
+  @include modalicon;
+}
+  .logoimg{
+  height: 60px;
+   width: 90px;
+  }
+  .firstcarosualimg{
+  height: 45rem;;
+ }
+.hrstyling {
+    height: 2px;
+    border-width :0;
+    color: rgb(29, 24, 24);
+    background-color:rgb(31, 29, 29);
+}
+
+ .imagestyle{
+  width:60rem;
+  height:35rem;
+ }
+  .welcomemargin{
+    margin-top:2rem;
+    bottom:0;
+    background:rgba(223, 215, 215, 0.5);
+    color:$orange;
+   
+  }
+  .firstarrow{
+    @include arrows;
+  }
+  .firstarrow:hover{
+    color: $lightorange;
+  }
+  .quote{
+    background-color: rgba(0,0,0,1.0);
+    float:right;
+    }
+ .nav-link:hover{
+    background-color: $lightorange;
+         }
+
+ .hr1::before{
+  @include designHR;
+  
+ }
+ .hr2::after{
+  @include designHR;
+ 
+
+ }
+.frontcr{
+  background-color: rgba(241, 235, 235, 0.5);
+  color:black;
+  border:2px solid white;
+  padding:2px;
+}
+.ctgyimg{
+  height:18rem;
+  width:100%;
+  position: relative;
+}
+.btnstyling{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  opacity: 0.1;
+}
+  /*.ctgyimg:hover {
+    opacity: 0.5;
+    transform:scale(1.02,1.02);
+   }*/
+
+
+   .hoverimage:hover .ctgyimg {
+  opacity: 0.3;
+}
+
+.hoverimage:hover .btnhover {
+  opacity: 1.0;
+}
+
+.fauthorimg{
+  padding:0;
+  margin:0;
+  background-color: rgba(0,0,0,0.2);
+ 
+}
+
+
+.colornav{
+ /* background-color:$orange;*/
+  padding:0%;
+  background-color: rgba(248, 242, 242, 0.8);
+  
+}
+.dropdown-item:hover{
+  color:$lightorange;
+  background-color: white;
+}
+.ctgymargin{
+  padding-left: 30px;
+  padding-right: 30px;
+ 
+}
+
+.btncolor{
+  background-color: $blue;
+  color:white;
+
+}
+.btncolor:hover{
+  background-color: $orange;
+}
+.custcolor,.categorycolor{
+  @include colorc;
+}
+
+.footercontent1{
+  @include footercontent;
+
+}
+.footercontent1:hover{
+  color:$orange;
+
+}
+
+.whyjoinuscolor,.authorcolor{
+  @include colorc;
+}
+.brandcolor,.custc{
+  @include colorc;
+}
+.fauthorimg{
+  width:100%;
+  height: 30rem;
+}
+.categoryimg:hover{
+ opacity: 0.5;
+}
+.fcustomerimg{
+
+border-radius:50%;
+height:10rem;
+width:12rem;
+}
+.footerimg{
+  @include footerlogo;
+}
+.title1{
+  @include title;
+}
+.marqueeimg{
+  @include marqueeimages;
+}
+.topbtn{
+  @include topbutton;
+}
+.btn-secondary{
+ 
+  @include topbtn;
+  
+}
+.fbcolor1{
+  @include fbcolor;
+}
+.linkedincolor1{
+  @include linkedincolor;
+}
+.instacolor1{
+  @include instacolor;
+}
+.twittercolor1{
+  @include twittercolor;
+}
+.youtubecolor1{
+  @include youtubecolor;
+}
+
+

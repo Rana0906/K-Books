@@ -1,0 +1,88 @@
+.comicbg {
+  background-image: url("assets/images/comicbg.jpeg");
+}
+
+.comicheadercard {
+
+  background-color: rgba(253, 244, 244, 0.01);
+}
+
+.ctgyimg {
+  height: 18rem;
+  width: 100%;
+  position: relative;
+}
+
+.comicimg {
+  height: 25rem;
+}
+
+.comicbtn:hover {
+  background-color: $orange;
+}
+
+.colornav2 {
+  /* background-color:$orange;*/
+  padding: 0%;
+  background-color: rgba(248, 242, 242, 0.8);
+}
+
+.secondarrow {
+  @include arrows;
+}
+
+.secondarrow:hover {
+  color: $lightorange;
+}
+
+.leftarrow2 {
+  @include leftarrows;
+}
+
+.leftarrow2:hover {
+  color: $lightorange;
+}
+
+
+
+.comicbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0.01;
+  background-color: $lightorange;
+}
+
+.hoverimage2:hover .comicimg {
+  opacity: 0.3;
+}
+
+.hoverimage2:hover .comicbtn {
+  opacity: 1.0;
+}
+
+.fbcolor2 {
+  @include fbcolor;
+}
+
+.linkedincolor2 {
+  @include linkedincolor;
+}
+
+.instacolor2 {
+  @include instacolor;
+}
+
+.twittercolor2 {
+  @include twittercolor;
+}
+
+.youtubecolor2 {
+  @include youtubecolor;
+}
+
+.modalicon2 {
+  @include modalicon;
+}

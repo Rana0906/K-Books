@@ -1,0 +1,61 @@
+.fiftharrow {
+  @include arrows;
+}
+
+.fiftharrow:hover {
+  color: $lightorange;
+}
+
+.leftarrow5 {
+  @include leftarrows;
+}
+
+.leftarrow5:hover {
+  color: $lightorange;
+}
+
+.aboutus_textstyling {
+  width: 45rem;
+  height: 40rem;
+  animation: mymove 20s;
+  animation-iteration-count: 1;
+
+}
+
+@keyframes mymove {
+  50% {
+    font-size: 40px;
+  }
+
+  from {
+    color: $blue;
+  }
+
+  to {
+    color: $orange;
+  }
+}
+
+.fbcolor5 {
+  @include fbcolor;
+}
+
+.linkedincolor5 {
+  @include linkedincolor;
+}
+
+.instacolor5 {
+  @include instacolor;
+}
+
+.twittercolor5 {
+  @include twittercolor;
+}
+
+.youtubecolor5 {
+  @include youtubecolor;
+}
+
+.modalicon5 {
+  @include modalicon;
+}

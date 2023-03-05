@@ -1,0 +1,68 @@
+@mixin designHR{
+    content: " ";
+    height: 1px;
+    width: 120px;
+    background:rgb(15, 9, 9);
+    display:inline-block;
+    margin :4px ;
+ }
+@mixin colorc{
+    color:$orange;
+}
+@mixin colorb{
+    background-color: $orange;
+}
+@mixin footercontent{
+    color:white;
+}
+@mixin arrows{
+    
+        float:right;
+        color:$orange;
+      
+}@mixin leftarrows{
+    float:left;
+    color:$orange;
+}
+@mixin topbtn{
+    color:white;
+  z-index: 1;
+  position:fixed;
+  bottom:0;
+  right:0;
+}
+@mixin footerlogo{
+    height: 40px;
+     width: 80px;
+    background-color: white;
+}@mixin title{
+    color:white;
+}
+@mixin marqueeimages{
+    width:120; 
+    height:80px;
+}
+@mixin topbutton{
+    float:right;
+    color:white;
+     margin:0;
+}
+@mixin modalicon{
+    color:rgb(16, 140, 241);
+}
+@mixin fbcolor{
+    color:rgb(16, 140, 241);
+}
+@mixin twittercolor{
+    color:rgb(16, 140, 241);
+}
+@mixin instacolor{
+    color:rgb(156, 13, 223);
+}
+@mixin linkedincolor{
+    color:rgb(156, 13, 223);
+}
+@mixin youtubecolor{
+    color:rgb(226, 44, 31);
+}
+  

@@ -1,0 +1,52 @@
+.footerlogo4 {
+  @include footerlogo;
+}
+
+.title4 {
+  @include title;
+}
+
+.joinusimg {
+  width: 100%;
+  height: 30rem;
+}
+
+.fortharrow {
+  @include arrows;
+}
+
+.fortharrow:hover {
+  color: $lightorange;
+}
+
+.leftarrow4 {
+  @include leftarrows;
+}
+
+.leftarrow4:hover {
+  color: $lightorange;
+}
+
+.fbcolor4 {
+  @include fbcolor;
+}
+
+.linkedincolor4 {
+  @include linkedincolor;
+}
+
+.instacolor4 {
+  @include instacolor;
+}
+
+.twittercolor4 {
+  @include twittercolor;
+}
+
+.youtubecolor4 {
+  @include youtubecolor;
+}
+
+.modalicon4 {
+  @include modalicon;
+}

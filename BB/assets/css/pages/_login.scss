@@ -1,0 +1,73 @@
+.signuphr1::before {
+  @include designHR;
+
+}
+
+.signuphr2::after {
+  @include designHR;
+}
+
+.login_color_text {
+  color: $blue;
+}
+
+.form-floating {
+  border-radius: 20px;
+}
+
+.signup_icon_styling {
+  border: 1rem solid rgba(252, 241, 241, 0.979);
+  color: $blue;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.login_text {
+  color: $blue;
+
+
+}
+
+.login_btn {
+  border-radius: 25px;
+}
+
+.login_card_bg {
+  background-image: url("/assets/images//bgimg4.jpg");
+}
+
+.login_signin_btn {
+  border-radius: 25px;
+
+
+
+
+}
+
+.fbcolor6 {
+  @include fbcolor;
+}
+
+.linkedincolor6 {
+  @include linkedincolor;
+}
+
+.instacolor6 {
+  @include instacolor;
+}
+
+.twittercolor6 {
+  @include twittercolor;
+}
+
+.youtubecolor6 {
+  @include youtubecolor;
+}
+
+.modalicon6 {
+  @include modalicon;
+}
+
+.marginfooter {
+  margin-top: 229px;
+}

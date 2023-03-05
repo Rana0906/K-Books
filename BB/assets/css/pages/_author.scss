@@ -1,0 +1,99 @@
+.authorbgimg {
+    background-image: url("./assets/images/book.jpeg");
+}
+
+.imgauthor {
+    height: 20rem;
+    width: 100%;
+    position: relative;
+}
+
+.authorbtn:hover {
+    background-color: $lightorange
+}
+
+.colornav3 {
+    padding: 0%;
+    background-color: rgba(248, 242, 242, 0.8);
+}
+
+.authortextcolor {
+    color: $orange;
+}
+
+.authorbtn {
+    background-color: $orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0.1;
+}
+
+.authornav {
+    background-color: $orange;
+}
+
+.authorfont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: aliceblue;
+    font-weight: bold;
+
+
+}
+
+.authorfooter {
+    background-color: rgb(53, 55, 56);
+}
+
+.hoverimage3:hover .imgauthor {
+    opacity: 0.3;
+
+}
+
+.hoverimage3:hover .authorbtn {
+    opacity: 1.0;
+
+}
+
+.thirdarrow {
+    @include arrows;
+}
+
+.thirdarrow:hover {
+    color: $lightorange;
+}
+
+.leftarrow3 {
+    @include leftarrows;
+}
+
+.leftarrow3:hover {
+    color: $lightorange;
+}
+
+.fbcolor3 {
+    @include fbcolor;
+}
+
+.linkedincolor3 {
+    @include linkedincolor;
+}
+
+.instacolor3 {
+    @include instacolor;
+}
+
+.twittercolor3 {
+    @include twittercolor;
+}
+
+.youtubecolor3 {
+    @include youtubecolor;
+}
+
+.modalicon3 {
+    @include modalicon;
+}

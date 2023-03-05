@@ -1,0 +1,397 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./assets/images/">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>K-Books</title>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg  navbar-dark text-dark colornav ">
+        <div class="container ">
+            <a href="./index.html">
+                <img src="./assets/images/logo (1).png" class="logoimg" alt="logo">
+                 </a>            <a class="navbar-brand fw-bold  text-dark fs-2 mx-3" href="./index.html">K-BOOKS</a><!--.fw- for bold -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-5 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-dark fs-5" aria-current="page" href="./index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown   fs-5 me-1">
+                        <a class="nav-link dropdown-toggle text-dark fs-5" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./comic.html">Comic</a></li>
+                            <li><a class="dropdown-item" href="./educational.html">Educational</a></li>
+                            <li><a class="dropdown-item" href="./comic.html">History</a></li>
+                            <li><a class="dropdown-item" href="./comic.html">Horror</a></li>
+                          
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown  me-1 fs-5">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Author</a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./author.html">COLLEEN HOOVER</a></li>
+                            <li><a class="dropdown-item" href="./author.html">ਬੁਸ਼ਰਾ ਨਾਜ਼</a></li>
+                            <li><a class="dropdown-item" href="./author.html">कालिदास</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item  me-1 fs-5">
+                        <a class="nav-link active text-dark" aria-current="page" href="./contactus.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item  me-1 fs-5 ">
+                        <a class="nav-link active text-dark" aria-current="page" href="./aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item  me-1 fs-5">
+                        <a class="nav-link active text-dark" aria-current="page" href="./login.html">Log in </a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search" onsubmit="return validation()">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        id="searchbtn">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container">
+        <!--cards-->
+        <div class="row row-cols-1 row-cols-md-3 g-0 mt-1">
+            <div class="col-md-3">
+                <div class="card w-100 h-50 mt-2">
+                    <img src="./assets/images/img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center "><a href="https://en.wikipedia.org/wiki/Colleen_Hoover"
+                                class="hover_title">Colleen Hoover</a></h5>
+                    </div>
+                    <div class="card-footer">
+                        <ul>
+                            <li class="mb-1">Reading age: <i
+                                    class="fa-solid fa-face-grin-beam-sweat fa-1x ms-1"></i><small
+                                    class="discription_text_color"> suggested above 14years</small></li>
+                            <li class="mb-1">Book 1 of 2: <i class="fa-solid fa-book fa-1x ms-1"></i><small
+                                    class="discription_text_color"> It End With Us</small></li>
+                            <li class="mb-1"> Page Length: <i class="fa-solid fa-book-open-reader fa-1x ms-1"></i><small
+                                    class="discription_text_color"> 384 length</small></li>
+                            <li class="mb-1"> Language :<i class="fa-solid fa-globe fa-1x ms-1"></i><small
+                                    class="discription_text_color"> English</small></li>
+                            <li class="mb-1">Publication Date: <i
+                                    class="fa-solid fa-calendar-days fa-1x ms-1"></i><small
+                                    class="discription_text_color"> 5 August 2016</small></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title ">It Ends With Us: A Novel: Volume 1 Paperback- Big Book,2016<br><small>by
+                                <a href="https://en.wikipedia.org/wiki/Colleen_Hoover  " class="hover_title">Colleen
+                                    Hoover</a></small></h5>
+                        <i class="fa-solid fa-star discription_icon "></i>
+                        <i class="fa-solid fa-star discription_icon "></i>
+                        <i class="fa-solid fa-star discription_icon "></i>
+                        <i class="fa-solid fa-star discription_icon "></i>
+                        <i class="fa-solid fa-star-half discription_icon"></i>
+                        <p class="card-text discription_style">#Best Seller</p>
+                        <p class="text-center"><small>In Crime,Thriller& Mystery</small></p>
+                    </div>
+                    <div class="paperback_border  mx-auto p-2 mb-1">Paperback<br>₹259.00</div>
+                    <hr class="hrstyling">
+                    <div class="container ">
+                        <ul>
+                            <li> <span class="text-primary">Save Extra </span>with 3 offers</li>
+                            <li><span class="text-primary"> No Cost EMI: </span>Avail No Cost EMI on select cards for
+                                orders above ₹3000 DetailsNo Cost EMI: Avail No Cost EMI on select cards for orders
+                                above ₹3000</li>
+                            <li><span class="text-primary"> Bank Offer (3): </span>7.5% Instant Discount up to INR 1500
+                                on Amex Credit Card EMI Trxn. Minimum purchase value INR 10000</li>
+
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">The newest, highly anticipated novel from beloved #1 New York Times
+                            bestselling author, Colleen Hoover. Sometimes it is the one who loves you who hurts you the
+                            most. Lily hasn?t always had it easy, but that's never stopped her from working hard for the
+                            life she wants. She?s come a long way from the small town in Maine where she grew up?she
+                            graduated from college, moved to Boston and started her own business. So when she feels a
+                            spark with a gorgeous neurosurgeon named Ryle Kincaid, everything in Lily?s life suddenly
+                            seems almost too good to be true. Ryle is assertive, stubborn, maybe even a little arrogant.
+                            He?s also sensitive, brilliant and has a total soft spot for Lily. And the way he looks in
+                            scrubs certainly doesn?t hurt. Lily can not get him out of her head. But Ryle?s complete
+                            aversion to relationships is disturbing. Even as Lily finds herself becoming the exception
+                            to his ?no dating? rule, she can not help but wonder what made him that way in the first
+                            place. As questions about her new relationship overwhelm her, so do thoughts of Atlas
+                            Corrigan?her first love and a link to the past she left behind. He was her kindred spirit,
+                            her protector. When Atlas suddenly reappears, everything Lily has built with Ryle is
+                            threatened. With this bold and deeply personal novel, Colleen Hoover delivers a
+                            heart-wrenching story that breaks exciting new ground for her as a writer. Combining a
+                            captivating romance with a cast of all-too-human characters, it ends with us is an
+                            unforgettable tale of love that comes at the ultimate price.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 bordercard">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span class="card-title movingright"><strong>BUY NEW </strong></span>
+                        <ul class="list-unstyled ">
+                            <li class="text-danger"> ₹259 </li>
+                            <li>M.R.P.:<del>₹559</del></li>
+                            <li>Save:₹300</li>
+                            <li><small>Inclusive of all taxes</small></li>
+                            <li><strong class="text-primary">₹65 delivery </strong>Wednesday, 22 February.</li>
+                        </ul>
+                        <p class="color_stock">In Stock</p>
+                        <p>Sold by <strong class="color_stock">TRUE HAWK </strong>and Delivered by K-Books</p>
+                        <span>Quality
+                            <select name="numbers" id="nmbers">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </span>
+                        <div class="d-grid gap-2 mt-4 ">
+                            <button class="btn color_btn" type="button">Add to Cart</button>
+                            <button class="btn color_btn" type="button">Buy Now</button>
+                        </div>
+                        <hr class="hrstyling">
+                    </div>
+                    <ul class="list-unstyled mx-auto mt-0">
+                        <li><i class="fa-solid fa-boxes-packing mb-2"></i><small class="text-center ms-1"> 10 Days
+                                Replacement</small></li>
+                        <li><i class="fa-solid fa-truck "></i><small class="text-center ms-1"> K-Books delivery</small>
+                        </li>
+                    </ul>
+                    <hr class="hrstyling">
+                    <p class="text-primary text-center fs-4"><i class="fa-solid fa-shop-lock"></i> secure transaction
+                    <p class="secure_text p-2">We work hard to protect your security and privacy. Our payment security
+                        system encrypts your information during transmission. We dont share your credit card details
+                        with third-party sellers, and we dont sell your information to others.</p>
+                    </p>
+                    <div class="card-footer">
+
+
+                        <small class="text-muted"><a href="./login.html">Add to Wishlist</a></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" i class="fa-sharp fa-solid fa-arrow-up-from-bracket btn btn-secondary mt-0 "></i></a>
+
+
+
+
+    <!--sign up page-->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title " id="staticBackdropLabel">Sign up </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <form onsubmit=" return validate()" name="myform">
+                        <div class="mb-3">
+                            <label class="login_color_text"><i class="fa-solid fa-user fa-1x "></i>
+                                Username</label>
+                            <input type="name" class="form-control " id="floatingInput1" name="Name"
+                                placeholder="Enter your name" autocomplete="off"><span id="uname"></span>
+
+                        </div>
+                        <div class=" mb-3">
+                            <label class="login_color_text"><i class="fa-solid fa-envelope fa-1x  "></i>
+                                Email</label>
+                            <input type="email" class="form-control " id="floatingEmail" name="Email"
+                                placeholder="name@example.com"><span id="emailEl"></span>
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="login_color_text"><i class="fa-solid fa-lock fa-1x "></i> Password
+
+                            </label>
+                            <input type="password" class="form-control " id="floatingPassword"
+                                placeholder="Password"><span id="passP"></span>
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="login_color_text"><i class="fa-solid fa-lock fa-1x "></i>
+                                Confirm Password
+
+                            </label>
+                            <input type=" confirmpassword" class="form-control " id="floatingConfirmPassword"
+                                placeholder="Confirm Password"><span id="=passPC"></span>
+
+                        </div>
+                        <div class=" mb-3">
+                            <label class="login_color_text"><i class="fas fa-phone fa-1x"></i> Phone
+                                Number</label>
+                            <input type="Phone Number" id="floatingPhoneNumber" name="phone" placeholder="Phone Number"
+                                class="form-control "><span id="phnNum"></span>
+
+                        </div>
+
+                        <div class="form-check ms-4">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label " for="flexCheckDefault">
+                                I read & agree to <a href="#">Terms & Condition.</a>
+                            </label>
+                        </div>
+
+                </div>
+                <button class="btn btn-primary mx-auto" type="submit">Create Account</button>
+                </form>
+
+                <h3 class="signuphr1 signuphr2  text-center mt-3">OR</h3>
+
+
+
+                <span class="mx-auto">
+                    <i class="fa-brands fa-facebook fs-2 m-2 modalicon6"></i>
+                    <i class="fa-brands fa-google fs-2 m-2 modalicon6"></i>
+                    <i class="fa-brands fa-twitter fs-2 m-2 modalicon6"></i>
+                </span>
+                <div class="modal-footer mx-auto">
+                    <p>Already have an account ?<a href="./login.html">Log In</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--FOOTER-->
+    <div class="container-fluid bg-gradient bg-dark">
+        <!--div class>
+          <h1 class="hr1 hr2 text-light text-center mt-5">FOOTER</h1>
+           </div>-->
+        <div class="container">
+            <div class="row row-cols-2 row-cols-md-4 g-0">
+                <div class="col">
+                    <div class="card-body">
+
+                        <img src="./assets/images/logo (1).png" class="footerimg">
+                        <span class="title1">K-BOOKS</span>
+                        <hr class="hrstyling">
+                        <p class="text-light">Get exclusive assets sent straight to your inbox</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Sign up
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">OUR COMPANY</h5>
+                        <p><a href="#" class="card-text   text-decoration-none footercontent1"> Delivery</a></p>
+                        <p><a href="#" class="card-text   text-decoration-none footercontent1"> Legal Notice</a></p>
+                        <p><a href="./aboutus.html" class="card-text   text-decoration-none footercontent1"> About Us</a></p>
+                        <p><a href="#" class="card-text   text-decoration-none footercontent1"> secure Payment</a></p>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">PRODUCTS</h5>
+                        <p><a href="#" class="card-text   text-decoration-none footercontent1"> Sale!!</a></p>
+                        <p><a href="#" class="card-text   text-decoration-none footercontent1"> New-Collections</a></p>
+                        <p><a href="./login.html" class="card-text   text-decoration-none footercontent1"> My Account</a></p>
+
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">CONTACT</h5>
+                        <p class="text-light"><i class="fas fa-phone text-light"></i> +91 9876543210</p>
+                        <p class="text-light"><i class="fa-solid fa-envelope text-light"></i> mail12@gmail.com</p>
+                        <p class="text-light"> <i class="fa-solid fa-clock text-light"></i> 24HOURS SERVICE</p>
+
+                        <h5 class="card-title text-light">SOCIAL MEDIA</h5>
+                        <i class="fa-brands fa-facebook fs-2 m-2 fbcolor1"></i>
+                        <i class="fa-brands fa-twitter fs-2 m-2 twittercolor1"></i>
+                        <i class="fa-brands fa-instagram fs-2 m-2 instacolor1 "></i>
+                        <i class="fa-brands fa-linkedin fs-2 m-2 linkedincolor1"></i>
+                        <i class="fa-brands fa-youtube-square fs-2 m-2 youtubecolor1 "></i>
+                        <hr class="hrstyling">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+          -->
+    <script src="/assets/javascript/javascript.js"></script>
+
+</body>
+
+</html>

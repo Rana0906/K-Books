@@ -1,0 +1,657 @@
+.footerlogo4 {
+  height: 40px;
+  width: 80px;
+  background-color: white;
+}
+
+.title4 {
+  color: white;
+}
+
+.joinusimg {
+  width: 100%;
+  height: 30rem;
+}
+
+.fortharrow {
+  float: right;
+  color: rgb(241, 118, 3);
+}
+
+.fortharrow:hover {
+  color: rgb(250, 150, 56);
+}
+
+.leftarrow4 {
+  float: left;
+  color: rgb(241, 118, 3);
+}
+
+.leftarrow4:hover {
+  color: rgb(250, 150, 56);
+}
+
+.fbcolor4 {
+  color: rgb(16, 140, 241);
+}
+
+.linkedincolor4 {
+  color: rgb(156, 13, 223);
+}
+
+.instacolor4 {
+  color: rgb(156, 13, 223);
+}
+
+.twittercolor4 {
+  color: rgb(16, 140, 241);
+}
+
+.youtubecolor4 {
+  color: rgb(226, 44, 31);
+}
+
+.modalicon4 {
+  color: rgb(16, 140, 241);
+}
+
+.discription_icon {
+  color: rgb(241, 118, 3);
+}
+
+.discription_style {
+  border: 2px solid rgb(241, 118, 3);
+  background-color: rgb(241, 118, 3);
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.secure_text {
+  color: rgb(241, 118, 3);
+  border: 1px solid white;
+}
+
+.rowstyling {
+  border: 2px solid black;
+  text-align: center;
+}
+
+.discription_text_color {
+  color: rgb(5, 24, 110);
+  margin-left: 0.5rem;
+}
+
+.hover_title:hover {
+  color: rgb(241, 118, 3);
+}
+
+.movingright {
+  float: right;
+  margin-right: 0;
+}
+
+.color_stock {
+  color: rgb(241, 118, 3);
+}
+
+.color_btn {
+  background-color: rgb(241, 118, 3);
+  border-radius: 25px;
+}
+
+.bordercard {
+  border: 1px solid rbga(0, 0, 0, 0.5);
+}
+
+.paperback_border {
+  border: 2px solid rgb(241, 118, 3);
+}
+
+.fiftharrow {
+  float: right;
+  color: rgb(241, 118, 3);
+}
+
+.fiftharrow:hover {
+  color: rgb(250, 150, 56);
+}
+
+.leftarrow5 {
+  float: left;
+  color: rgb(241, 118, 3);
+}
+
+.leftarrow5:hover {
+  color: rgb(250, 150, 56);
+}
+
+.aboutus_textstyling {
+  width: 45rem;
+  height: 40rem;
+  animation: mymove 20s;
+  animation-iteration-count: 1;
+}
+
+@keyframes mymove {
+  50% {
+    font-size: 40px;
+  }
+  from {
+    color: rgb(5, 24, 110);
+  }
+  to {
+    color: rgb(241, 118, 3);
+  }
+}
+.fbcolor5 {
+  color: rgb(16, 140, 241);
+}
+
+.linkedincolor5 {
+  color: rgb(156, 13, 223);
+}
+
+.instacolor5 {
+  color: rgb(156, 13, 223);
+}
+
+.twittercolor5 {
+  color: rgb(16, 140, 241);
+}
+
+.youtubecolor5 {
+  color: rgb(226, 44, 31);
+}
+
+.modalicon5 {
+  color: rgb(16, 140, 241);
+}
+
+.comicbg {
+  background-image: url("/assets/images/comicbg.jpeg");
+}
+
+.comicheadercard {
+  background-color: rgba(253, 244, 244, 0.01);
+}
+
+.ctgyimg {
+  height: 18rem;
+  width: 100%;
+  position: relative;
+}
+
+.comicimg {
+  height: 25rem;
+}
+
+.comicbtn:hover {
+  background-color: rgb(241, 118, 3);
+}
+
+.colornav2 {
+  /* background-color:$orange;*/
+  padding: 0%;
+  background-color: rgba(248, 242, 242, 0.8);
+}
+
+.secondarrow {
+  float: right;
+  color: rgb(241, 118, 3);
+}
+
+.secondarrow:hover {
+  color: rgb(250, 150, 56);
+}
+
+.leftarrow2 {
+  float: left;
+  color: rgb(241, 118, 3);
+}
+
+.leftarrow2:hover {
+  color: rgb(250, 150, 56);
+}
+
+.comicbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0.01;
+  background-color: rgb(250, 150, 56);
+}
+
+.hoverimage2:hover .comicimg {
+  opacity: 0.3;
+}
+
+.hoverimage2:hover .comicbtn {
+  opacity: 1;
+}
+
+.fbcolor2 {
+  color: rgb(16, 140, 241);
+}
+
+.linkedincolor2 {
+  color: rgb(156, 13, 223);
+}
+
+.instacolor2 {
+  color: rgb(156, 13, 223);
+}
+
+.twittercolor2 {
+  color: rgb(16, 140, 241);
+}
+
+.youtubecolor2 {
+  color: rgb(226, 44, 31);
+}
+
+.modalicon2 {
+  color: rgb(16, 140, 241);
+}
+
+.signuphr1::before {
+  content: " ";
+  height: 1px;
+  width: 120px;
+  background: rgb(15, 9, 9);
+  display: inline-block;
+  margin: 4px;
+}
+
+.signuphr2::after {
+  content: " ";
+  height: 1px;
+  width: 120px;
+  background: rgb(15, 9, 9);
+  display: inline-block;
+  margin: 4px;
+}
+
+.login_color_text {
+  color: rgb(5, 24, 110);
+}
+
+.form-floating {
+  border-radius: 20px;
+}
+
+.signup_icon_styling {
+  border: 1rem solid rgba(252, 241, 241, 0.979);
+  color: rgb(5, 24, 110);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.login_text {
+  color: rgb(5, 24, 110);
+}
+
+.login_btn {
+  border-radius: 25px;
+}
+
+.login_card_bg {
+  background-image: url("/assets/images//bgimg4.jpg");
+}
+
+.login_signin_btn {
+  border-radius: 25px;
+}
+
+.fbcolor6 {
+  color: rgb(16, 140, 241);
+}
+
+.linkedincolor6 {
+  color: rgb(156, 13, 223);
+}
+
+.instacolor6 {
+  color: rgb(156, 13, 223);
+}
+
+.twittercolor6 {
+  color: rgb(16, 140, 241);
+}
+
+.youtubecolor6 {
+  color: rgb(226, 44, 31);
+}
+
+.modalicon6 {
+  color: rgb(16, 140, 241);
+}
+
+.marginfooter {
+  margin-top: 229px;
+}
+
+.eduheadercard {
+  background-color: rgba(253, 244, 244, 0.01);
+}
+
+.bgeducational {
+  background-image: url("/assets/images/logoedu.avif");
+}
+
+.modalicon1 {
+  color: rgb(16, 140, 241);
+}
+
+.logoimg {
+  height: 60px;
+  width: 90px;
+}
+
+.firstcarosualimg {
+  height: 45rem;
+}
+
+.hrstyling {
+  height: 2px;
+  border-width: 0;
+  color: rgb(29, 24, 24);
+  background-color: rgb(31, 29, 29);
+}
+
+.imagestyle {
+  width: 60rem;
+  height: 35rem;
+}
+
+.welcomemargin {
+  margin-top: 2rem;
+  bottom: 0;
+  background: rgba(223, 215, 215, 0.5);
+  color: rgb(241, 118, 3);
+}
+
+.firstarrow {
+  float: right;
+  color: rgb(241, 118, 3);
+}
+
+.firstarrow:hover {
+  color: rgb(250, 150, 56);
+}
+
+.quote {
+  background-color: rgb(0, 0, 0);
+  float: right;
+}
+
+.nav-link:hover {
+  background-color: rgb(250, 150, 56);
+}
+
+.hr1::before {
+  content: " ";
+  height: 1px;
+  width: 120px;
+  background: rgb(15, 9, 9);
+  display: inline-block;
+  margin: 4px;
+}
+
+.hr2::after {
+  content: " ";
+  height: 1px;
+  width: 120px;
+  background: rgb(15, 9, 9);
+  display: inline-block;
+  margin: 4px;
+}
+
+.frontcr {
+  background-color: rgba(241, 235, 235, 0.5);
+  color: black;
+  border: 2px solid white;
+  padding: 2px;
+}
+
+.ctgyimg {
+  height: 18rem;
+  width: 100%;
+  position: relative;
+}
+
+.btnstyling {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0.1;
+}
+
+/*.ctgyimg:hover {
+  opacity: 0.5;
+  transform:scale(1.02,1.02);
+ }*/
+.hoverimage:hover .ctgyimg {
+  opacity: 0.3;
+}
+
+.hoverimage:hover .btnhover {
+  opacity: 1;
+}
+
+.fauthorimg {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.colornav {
+  /* background-color:$orange;*/
+  padding: 0%;
+  background-color: rgba(248, 242, 242, 0.8);
+}
+
+.dropdown-item:hover {
+  color: rgb(250, 150, 56);
+  background-color: white;
+}
+
+.ctgymargin {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btncolor {
+  background-color: rgb(5, 24, 110);
+  color: white;
+}
+
+.btncolor:hover {
+  background-color: rgb(241, 118, 3);
+}
+
+.custcolor, .categorycolor {
+  color: rgb(241, 118, 3);
+}
+
+.footercontent1 {
+  color: white;
+}
+
+.footercontent1:hover {
+  color: rgb(241, 118, 3);
+}
+
+.whyjoinuscolor, .authorcolor {
+  color: rgb(241, 118, 3);
+}
+
+.brandcolor, .custc {
+  color: rgb(241, 118, 3);
+}
+
+.fauthorimg {
+  width: 100%;
+  height: 30rem;
+}
+
+.categoryimg:hover {
+  opacity: 0.5;
+}
+
+.fcustomerimg {
+  border-radius: 50%;
+  height: 10rem;
+  width: 12rem;
+}
+
+.footerimg {
+  height: 40px;
+  width: 80px;
+  background-color: white;
+}
+
+.title1 {
+  color: white;
+}
+
+.marqueeimg {
+  width: 120;
+  height: 80px;
+}
+
+.topbtn {
+  float: right;
+  color: white;
+  margin: 0;
+}
+
+.btn-secondary {
+  color: white;
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.fbcolor1 {
+  color: rgb(16, 140, 241);
+}
+
+.linkedincolor1 {
+  color: rgb(156, 13, 223);
+}
+
+.instacolor1 {
+  color: rgb(156, 13, 223);
+}
+
+.twittercolor1 {
+  color: rgb(16, 140, 241);
+}
+
+.youtubecolor1 {
+  color: rgb(226, 44, 31);
+}
+
+.authorbgimg {
+  background-image: url("./assets/images/book.jpeg");
+}
+
+.imgauthor {
+  height: 20rem;
+  width: 100%;
+  position: relative;
+}
+
+.authorbtn:hover {
+  background-color: rgb(250, 150, 56);
+}
+
+.colornav3 {
+  padding: 0%;
+  background-color: rgba(248, 242, 242, 0.8);
+}
+
+.authortextcolor {
+  color: rgb(241, 118, 3);
+}
+
+.authorbtn {
+  background-color: rgb(241, 118, 3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0.1;
+}
+
+.authornav {
+  background-color: rgb(241, 118, 3);
+}
+
+.authorfont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.authorfooter {
+  background-color: rgb(53, 55, 56);
+}
+
+.hoverimage3:hover .imgauthor {
+  opacity: 0.3;
+}
+
+.hoverimage3:hover .authorbtn {
+  opacity: 1;
+}
+
+.thirdarrow {
+  float: right;
+  color: rgb(241, 118, 3);
+}
+
+.thirdarrow:hover {
+  color: rgb(250, 150, 56);
+}
+
+.leftarrow3 {
+  float: left;
+  color: rgb(241, 118, 3);
+}
+
+.leftarrow3:hover {
+  color: rgb(250, 150, 56);
+}
+
+.fbcolor3 {
+  color: rgb(16, 140, 241);
+}
+
+.linkedincolor3 {
+  color: rgb(156, 13, 223);
+}
+
+.instacolor3 {
+  color: rgb(156, 13, 223);
+}
+
+.twittercolor3 {
+  color: rgb(16, 140, 241);
+}
+
+.youtubecolor3 {
+  color: rgb(226, 44, 31);
+}
+
+.modalicon3 {
+  color: rgb(16, 140, 241);
+}/*# sourceMappingURL=main.css.map */

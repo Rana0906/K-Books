@@ -1,0 +1,53 @@
+.discription_icon {
+    color: $orange;
+}
+
+.discription_style {
+    border: 2px solid $orange;
+    background-color: $orange;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.secure_text {
+    color: $orange;
+    border: 1px solid white;
+}
+
+.rowstyling {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.discription_text_color {
+    color: $blue;
+    margin-left: 0.5rem;
+}
+
+.hover_title:hover {
+    color: $orange;
+}
+
+.movingright {
+    float: right;
+    margin-right: 0;
+}
+
+.color_stock {
+    color: $orange;
+}
+
+.color_btn {
+    background-color: $orange;
+    border-radius: 25px;
+}
+
+.bordercard {
+    border: 1px solid rbga(0, 0, 0, 0.5);
+}
+
+.paperback_border {
+    border: 2px solid $orange;
+
+}
